@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #6d6875;
+    color: white;
+}
+
+.header{
+    background-color:#6d6875;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-bottom:1px solid #b5838d;
+}
+
+.score-board{
+    background-color: #6d6875;
+    text-align: center;
+    border-bottom: 2px solid #b5838d ;
+    font-size: 20px;
+    width: 400px;
+    margin: 40px auto;
+    padding : 20px 40px;
+    border-radius: 4px;
+    
+}
+.label{
+    border-radius: 4px;
+    padding: 4px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #b5838d;
+}
+
+.score-board > span{
+}
+
+.options{
+    background-color: #6d6875;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.option{
+    display: inline-block;
+    border:0.5px solid #b5838d ;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.option:hover{
+    background-color:#b5838d;
+    transition: 0.5s;
+}
+
+.wrapper{
+    text-align: center;
+}
+#reset{
+   margin:10px;
+   padding:6px 12px;
+   background-color:#ffcdb2;
+   border-radius: 4px;
+   border: 0px;
+   box-shadow: 5px;
+   color:#6d6875;
+   font-size: 14px;
+   
+}
